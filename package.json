@@ -1,0 +1,8 @@
+{
+  "name": "express-limit-api",
+  "version": "0.0.1",
+  "description": "Litmit request api",
+  "main": "index.js",
+  "author": "lequangsang97",
+  "license": "MIT"
+}
