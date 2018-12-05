@@ -1,6 +1,6 @@
 {
   "name": "express-limit-api",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Litmit request api",
   "main": "index.js",
   "author": "lequangsang97",

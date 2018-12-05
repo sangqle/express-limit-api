@@ -19,12 +19,12 @@ app.get(
     path: "/api/action",
     method: "get",
     lookup: ["connection.remoteAddress"],
-    // 150 requests per hour
-    total: 150,
+    // 1000 requests per hour
+    total: 1000,
     expire: 1000 * 60 * 60
   }),
   function(req, res) {
-    res.send(200, "ok");
+    res.send(200, "Welcome to limit request api");
   }
 );
 ```
@@ -48,7 +48,7 @@ limiter(options);
 ### Examples
 
 ```js
-// limit by IP address
+// Limit by IP address
 limiter({
   ...
   lookup: 'connection.remoteAddress'
@@ -138,5 +138,3 @@ app.post("/user/update", limiter({ lookup: "user.id" }), function(req, res) {
 ```
 
 ## License MIT
-
-Happy Rate Limiting!
