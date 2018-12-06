@@ -1,10 +1,30 @@
 {
   "name": "express-limit-api",
   "version": "0.0.3",
-  "description": "Litmit request api",
+  "description": "Litmit request as middleware for express",
   "main": "index.js",
-  "author": "lequangsang97",
+  "author": "sangjs",
   "license": "MIT",
+  "repository" : "sangjs/express-limit-api",
+  "keywords": [
+    "express-limit-api",
+    "express-rate-limit",
+    "express",
+    "rate",
+    "limit",
+    "ratelimit",
+    "rate-limit",
+    "middleware",
+    "ip",
+    "auth",
+    "authorization",
+    "security",
+    "brute",
+    "force",
+    "bruteforce",
+    "brute-force",
+    "attack"
+  ],
   "dependencies": {
     "express": "^4.16.4"
   }
